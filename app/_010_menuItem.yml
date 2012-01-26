@@ -1,0 +1,16 @@
+MenuItem(accueil):
+  name: Accueil
+ 
+MenuItem(blog):
+  name: Blog
+
+MenuItem(contact):
+  name: Contact
+  
+MenuItem(adminBlog):
+  name: Administrer le blog
+  isAdmin: true
+  
+MenuItem(systeme):
+  name: Paramètre système
+  isAdmin: true  

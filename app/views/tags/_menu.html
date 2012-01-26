@@ -1,0 +1,7 @@
+#{if !menuItems.isEmpty()}
+<ul>
+#{list items:menuItems, as: 'item'}
+    <li>${item.name}</li>
+#{/list}
+</ul>
+#{/if}
